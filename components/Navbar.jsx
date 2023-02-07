@@ -10,12 +10,12 @@ const Navbar = () => (
     variants={navVariants}
     initial="hidden"
     whileInView="show"
-    //py-8 represents y padding, relative is position according to normall flow and offsets are calculated
+    //py-8 represents y padding, relative is position according to normal flow and offsets are calculated
     className={`${styles.xPaddings} py-8 relative`}
   >
     
     <div /*inset covers whole element, absolute width makes the div smaller*/className="absolute w-[50%] inset-0 gradient-01" />
-    <div /*makes the div go all the way through, centers element, makes items inside a list, make equal space,make gap*/className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}>
+    <div /*makes the div go all the way through, make space between, makes items inside a list, make equal space,make gap*/className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}>
       <img
         src="/search.svg"
         alt="search"

@@ -13,6 +13,7 @@ export const navVariants = {
     y: 0,
     transition: {
       type: 'spring',
+      //how fast the animation goes into place
       stiffness: 80,
       delay: 1,
     },
