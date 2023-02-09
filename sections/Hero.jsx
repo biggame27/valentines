@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-
+//imports strings wit commands
 import styles from '../styles';
 import { slideIn, staggerContainer, textVariant } from '../utils/motion';
 
@@ -14,21 +14,23 @@ const Hero = () => (
     whileInView="show"
     //repeats animation everytime you scroll
     viewport={{ once:false, amount: 0.25}}
+    //use `${name}` to implement outter string into styles code
     className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
-      <div /*set align, make things inside centered (relative x,y), list items in col, relative elements (change where they are around everyone else),appear above*/ className="flex justify-center items-center flex-col relative z-10">
+      <div /*set align, make things inside centered (relative x,y), list items in col, relative elements (required when putting a z element, keeps everything same),appear above*/ className="flex justify-center items-center flex-col relative z-10">
         <motion.h1 
-        variants={textVariant(1.1)}
+        variants={textVariant(0.5)}
         className={styles.heroHeading}>
-          Locked In
+          God Fucking
         </motion.h1>
         <motion.div
-          variants={textVariant(1.2)}
+          variants={textVariant(0.7)}
           className="flex flex-row justify-center items-center"
         >
-          <h1 className={styles.heroHeading}>In</h1>
+          {/*<h1 className={styles.heroHeading}>In</h1> */}
+          
           <div className={styles.heroDText} />
-          <h1 className={styles.heroHeading}>eeD</h1>
+          <h1 className={styles.heroHeading}>ammit</h1>
         </motion.div>
       </div>
     </motion.div>

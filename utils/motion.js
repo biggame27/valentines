@@ -15,7 +15,7 @@ export const navVariants = {
       type: 'spring',
       //how fast the animation goes into place
       stiffness: 80,
-      delay: 1,
+      delay: 0.1,
     },
   },
 };
@@ -37,6 +37,8 @@ export const slideIn = (direction, type, delay, duration) => ({
   },
 });
 
+//calls two sub transitions and makes motion div a container div to render children animations
+//staggerChildren delays each thing in container, delayChildren delays the first.
 export const staggerContainer = (staggerChildren, delayChildren) => ({
   hidden: {},
   show: {
@@ -88,6 +90,7 @@ export const textVariant2 = {
   },
 };
 
+//tween is normal, inertia type is id, and spring makes it bounce around
 export const fadeIn = (direction, type, delay, duration) => ({
   hidden: {
     x: direction === 'left' ? 100 : direction === 'right' ? -100 : 0,

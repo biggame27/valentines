@@ -22,7 +22,7 @@ const Navbar = () => (
         //object-contain makes the thing contain insuide
         className="w-[24px] h-[24px] object-contain"
       />
-      <h2 className="font-extrabold text-[24px] leading-[30px] text-white">ANGELINA</h2>
+      <h2 className="font-extrabold text-[24px] leading-[30px] text-white">GAY SHIT</h2>
       <img
         src="/menu.svg"
         alt="menu"
