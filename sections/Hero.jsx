@@ -12,7 +12,7 @@ const Hero = () => (
     variants={staggerContainer}
     initial="hidden"
     whileInView="show"
-    //repeats animation everytime you scroll
+    //repeats animation everytime you scroll, amount is how much of the element needs to be there
     viewport={{ once:false, amount: 0.25}}
     //use `${name}` to implement outter string into styles code
     className={`${styles.innerWidth} mx-auto flex flex-col`}

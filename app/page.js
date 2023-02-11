@@ -6,7 +6,6 @@ const Page = () => (
     <Navbar />
     <Hero />
     <div className="relative">
-      hello
       <About />
       <div className="gradient-03 z-0" />
       <Explore />
