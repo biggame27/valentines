@@ -10,7 +10,7 @@ const styles = {
   topPaddings: 'sm:pt-16 xs:pt-8 pt-12',
   bottomPaddings: 'sm:pb-16 xs:pb-8 pb-12',
 
-  //justify center makes elmeents align x axis and items center makes it aligned on the y axis
+  //justify center makes elements(of the desired div) align x axis and items center makes it aligned on the y axis
   flexCenter: 'flex justify-center items-center',
   flexStart: 'flex justify-start items-start',
   flexEnd: 'flex justify-end',
