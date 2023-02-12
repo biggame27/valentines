@@ -14,7 +14,7 @@ const Hero = () => (
     whileInView="show"
     //repeats animation everytime you scroll, amount is how much of the element needs to be there
     viewport={{ once:false, amount: 0.25}}
-    //use `${name}` to implement outter string into styles code
+    //use `${name}` to implement outter string into styles code, mx-auto centers div
     className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
       <div /*set align, make things inside centered (relative x,y), list items in col, relative elements (required when putting a z element, keeps everything same),appear above*/ className="flex justify-center items-center flex-col relative z-10">
