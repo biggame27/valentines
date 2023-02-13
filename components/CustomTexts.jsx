@@ -8,7 +8,7 @@ import { fadeIn, staggerContainer, textContainer, textVariant2 } from '../utils/
 export const TypingText = ({ title, textStyles }) => (
   <motion.p
     variants={textContainer}
-    className={`font-normal text-[14px] text-secondary-white ${textStyles}`}
+    className={`font-normal text-[14px] text-amber-100 ${textStyles}`}
   >
     {Array.from(title).map((letter,index) => 
     //span elements are inline, either make space or use letter

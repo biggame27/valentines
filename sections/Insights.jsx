@@ -14,8 +14,8 @@ const Insights = () => (
       whileInView="show"
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
-      <TypingText title="| Insight" textStyles="text-center" />
-      <TitleText title="Insight about metaverse" textStyles="text-center" />
+      <TypingText title="| Thank you" textStyles="text-center" />
+      <TitleText title="Thanks for everything" textStyles="text-center" />
       <div className="mt-[50px] flex flex-col gap-[30px]">
         {insights.map((insight, index) => (
           <InsightCard 
@@ -23,7 +23,9 @@ const Insights = () => (
             {...insight}
             index={index+1}
           />
+          
         ))}
+        <div className="relative gradient-04 z-0 bottom-[0px] right-[0px]" />
       </div>
     </motion.div>
   </section>

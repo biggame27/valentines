@@ -1,35 +1,35 @@
 export const exploreWorlds = [
   {
     id: 'world-1',
-    imgUrl: '/planet-01.png',
-    title: 'The Hogwarts',
+    imgUrl: '/angelina_world1.jpg',
+    title: 'Are The Best Person Ever',
   },
   {
     id: 'world-2',
-    imgUrl: '/planet-02.png',
-    title: 'The Upside Down',
+    imgUrl: '/angelina_world2.jpg',
+    title: 'Make Me The Happiest',
   },
   {
     id: 'world-3',
-    imgUrl: '/planet-03.png',
-    title: 'Kadirojo Permai',
+    imgUrl: '/angelina_world3.jpg',
+    title: 'Give Me The Most Faith',
   },
   {
     id: 'world-4',
-    imgUrl: '/planet-04.png',
-    title: 'Paradise Island',
+    imgUrl: '/angelina_world4.jpg',
+    title: 'Make My Heart Smile',
   },
   {
     id: 'world-5',
-    imgUrl: '/planet-05.png',
-    title: 'Hawkins Labs',
+    imgUrl: '/angelina_world5.jpg',
+    title: 'Are The Most Gorgeous Girl Ever!!',
   },
 ];
 
 export const startingFeatures = [
-  'Find a world that suits you and you want to enter',
-  'Enter the world by reading basmalah to be safe',
-  'No need to beat around the bush, just stay on the gas and have fun',
+  'Grind lots of CS',
+  'Shower and workout',
+  'Always be there for you!!!',
 ];
 
 export const newFeatures = [
@@ -49,22 +49,25 @@ export const newFeatures = [
 
 export const insights = [
   {
-    imgUrl: '/planet-06.png',
-    title: 'The launch of the Metaverse makes Elon musk ketar-ketir',
+    imgUrl: '/thanks1.jpg',
+    title: 'Thanks for putting up with me',
     subtitle:
-        'Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.',
+        'Whether its having super chapped lips or getting flat out rejected from UT, I love everything u do to help me beome better',
+    emoji: '🌹',
   },
   {
-    imgUrl: '/planet-07.png',
-    title: '7 tips to easily master the madness of the Metaverse',
+    imgUrl: '/thanks2.jpg',
+    title: 'Thanks for the memories',
     subtitle:
-        'Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum',
+        'The times I\'ve had with you are definitely some of the most fun I\'ve ever had, and I\'ll always love spending time with u',
+    emoji: '🙌',
   },
   {
-    imgUrl: '/planet-08.png',
-    title: 'With one platform you can explore the whole world virtually',
+    imgUrl: '/thanks3.JPG',
+    title: 'Thanks for the love',
     subtitle:
-        'Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem',
+        'U make me so happy and I always feel loved around u. Even if I\'m feeling down, u always mean the world to me ',
+    emoji: '💋',
   },
 ];
 

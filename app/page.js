@@ -2,24 +2,23 @@ import { Footer, Navbar } from '../components';
 import { About, Explore, Feedback, GetStarted, Hero, Insights, WhatsNew, World } from '../sections';
 
 const Page = () => (
-  <div className="bg-primary-black overflow-hidden">
+  <div className="bg-rose-200 overflow-hidden">
     <Navbar />
     <Hero />
     <div className="relative">
-      <About />
-      <div className="gradient-03 z-0" />
       <Explore />
+      <div className="gradient-03 z-0" />
+      <Insights />
     </div>
 
     <div className="relative">
       <GetStarted />
-      <div className="gradient-04 z-0" />
-      <WhatsNew />
+      <div className="gradient-01 z-0" />
+      <World />
     </div>
     <div className="relative">
-      <World />
-      <div className="gradient-04 z-0" />
-      <Insights />
+      <div className="gradient-05 z-0" />
+      {/*<About />*/}
     </div>
     <Feedback />
     <Footer />

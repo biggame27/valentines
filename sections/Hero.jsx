@@ -21,7 +21,11 @@ const Hero = () => (
         <motion.h1 
         variants={textVariant(0.5)}
         className={styles.heroHeading}>
-          God Fucking
+          <div className="text-center">
+            Happy <br/>
+            Valentine's
+          </div>
+          
         </motion.h1>
         <motion.div
           variants={textVariant(0.7)}
@@ -30,7 +34,7 @@ const Hero = () => (
           {/*<h1 className={styles.heroHeading}>In</h1> */}
           
           <div className={styles.heroDText} />
-          <h1 className={styles.heroHeading}>ammit</h1>
+          <h1 className={styles.heroHeading}>ayyy</h1>
         </motion.div>
       </div>
     </motion.div>
@@ -39,14 +43,13 @@ const Hero = () => (
       //margin top gives space, negative moves it up, relative makes it 
       className="relative w-full md:-mt-[20px] -mt-[12px]"
     >
-      <div className="absolute w-full h-[300px] hero-gradient rounded-tl-[140px] z-[0] -top-[30px]"/>
+      <div className="absolute w-full h-[500px] hero-gradient rounded-tl-[140px] z-[0] -top-[30px]"/>
       <img
-        src="/cover.png"
+        src="/angelina_cover.jpg"
         alt="cover"
-        className="w-full sm:h-[500px] h-[350px] object-cover rounded-tl-[140px] z-1 relative"
+        className="w-full sm:h-[500px] h-[350px] rounded-tl-[140px] z-1 relative object-cover"
       />
-
-      <a href="#explore">
+      {/* <a href="#explore">
         <div className="w-full flex justify-end sm:-mt-[70px] -mt-[50px] pr-[40px] relative z-10">
           <img
             src='/stamp.png'
@@ -54,7 +57,8 @@ const Hero = () => (
             className="sm:w-[155px] w-[100px] sm:h[155px] h-[100px] object-contain"
           />
         </div>
-      </a>
+      </a> */}
+      
 
     </motion.div>
   </section>
