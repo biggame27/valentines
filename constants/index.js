@@ -27,29 +27,29 @@ export const exploreWorlds = [
 ];
 
 export const startingFeatures = [
-  'Grind lots of CS',
-  'Shower and workout',
+  'Grind lots of CS!',
+  'Keep on showering!!',
   'Always be there for you!!!',
 ];
 
 export const newFeatures = [
   {
     imgUrl: '/vrpano.svg',
-    title: 'A new world',
+    title: 'Always',
     subtitle:
-        'we have the latest update with new world for you to try never mind',
+        'I\'ll always love you!!!!',
   },
   {
     imgUrl: '/headset.svg',
-    title: 'More realistic',
+    title: 'I wish',
     subtitle:
-        'In the latest update, your eyes are narrow, making the world more realistic than ever',
+        'I wish I could always be with you!!!',
   },
 ];
 
 export const insights = [
   {
-    imgUrl: '/thanks1.jpg',
+    imgUrl: '/thanks1.JPG',
     title: 'Thanks for putting up with me',
     subtitle:
         'Whether its having super chapped lips or getting flat out rejected from UT, I love everything u do to help me beome better',

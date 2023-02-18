@@ -11,7 +11,7 @@ const InsightCard = ({ imgUrl, title, subtitle, emoji, index }) => (
   >
     <img
       src={imgUrl}
-      alt="planet-01"
+      alt="you"
       className="md:w-[270px] w-[full] h-[250px] rounded-[32px] object-cover"
     />
 

@@ -5,7 +5,6 @@ import { motion } from 'framer-motion';
 import styles from '../styles';
 import { fadeIn } from '../utils/motion';
 
-{/*use brackets to define method parameters */}
 const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }) => (
   <motion.div
     /* index creates delay */

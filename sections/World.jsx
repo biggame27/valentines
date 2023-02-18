@@ -15,7 +15,7 @@ const World = () => (
       className={`${styles.innerWidth} mx-auto flex flex-col gap-8`}
     >
       <TypingText title="| Places I Wanna Go With You" textStyles="text-center" />
-      <TitleText title={<>And maybe I don't have the finances now, but here's where I'd take u</>} textStyles="text-center"/>
+      <TitleText title={<>And maybe I don't have the money neow, but here's where I'd take u</>} textStyles="text-center"/>
       <motion.div
         variants={fadeIn('up', 'tween', 0.3, 1)}
         initial="hidden"
@@ -29,6 +29,12 @@ const World = () => (
         />
 
         <div className="absolute top-[150px] right-[300px] w-[40px] h-[40px] p-[6px] rounded-full">
+          <img
+            src="place.png" alt = "people"
+            className="object-cover"
+          />
+        </div>
+        <div className="absolute top-[80px] left-[500px] w-[40px] h-[40px] p-[6px] rounded-full">
           <img
             src="place.png" alt = "people"
             className="object-cover"
